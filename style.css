@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 20px; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+    color: #007bff; 
+}
+
+label {
+    display: block;
+    margin-top: 10px; 
+    font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 1em; 
+    box-sizing: border-box; 
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px; 
+}
+
+label input[type="radio"] + span,
+label input[type="checkbox"] + span {
+    display: inline;
+}
+
+textarea {
+    resize: vertical; 
+    min-height: 100px; 
+}
+.buttons {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+button {
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border: none; 
+    border-radius: 4px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button[type="submit"] {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+button[type="reset"] {
+    background-color: #dc3545; 
+    color: #fff; 
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+    
+    input[type="number"] {
+        width: 100%; 
+    }
+    
+    button {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+}

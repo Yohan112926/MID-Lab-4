@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <br>
+        Full name:<br>
+        <input type="text" placeholder="Enter your name"><br>   
+          
+        Email:<br>
+        <input type="email" placeholder="name@gmail.com"><br>
+        
+        Password:<br>
+        <input type="Password" placeholder="Enter your passwordd"><br>
+        
+        Age:<br>
+        <input type="number" ><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferences</legend>
+    
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        
+        <p>Interest:</p>
+        <input type="checkbox" name="interest" value="Web Developer">Web Developer<br>
+        <input type="checkbox" name="interest" value="Design">Design<br>
+        <input type="checkbox" name="interest" value="AI/ML">AI/ML<br>
+
+        <p>Countr:</p>
+        <select readonly="Select a Country">
+        <option>Philippine</option>
+        <option>USA</option>
+        <option>Japan</option>
+        <option>Korea</option>  
+        </select>
+
+        <p>Short bio</p>
+        <textarea id="bio" name="bio" placeholder="Tell us a bit about yoursale..."> </textarea>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </fieldset>
+
+</form>
+</body>
+</html>
